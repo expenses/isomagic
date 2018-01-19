@@ -1,0 +1,11 @@
+[package]
+name = "isomagic"
+version = "0.1.0"
+authors = ["Ashley <expenses@airmail.cc>"]
+
+[dependencies]
+dot_vox = "*"
+image = "*"
+structopt = "*"
+structopt-derive = "*"
+error-chain = "*"
