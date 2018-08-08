@@ -2,6 +2,12 @@ A CLI pixel art renderer for [MagicaVoxel] files.
 
 ![](readme/monu10.png)
 
+To install, you can use 
+
+```
+cargo install isomagic
+```
+
 ```
 USAGE:
     isomagic [OPTIONS] <filename>

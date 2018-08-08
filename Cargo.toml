@@ -2,10 +2,13 @@
 name = "isomagic"
 version = "0.1.0"
 authors = ["Ashley <expenses@airmail.cc>"]
+license = "MIT"
+repository = "https://github.com/expenses"
+description = "A CLI pixel art renderer for MagicaVoxel files."
 
 [dependencies]
-dot_vox = "*"
-image = "*"
-structopt = "*"
-structopt-derive = "*"
-error-chain = "*"
+dot_vox = "3"
+image = "0"
+structopt = "0"
+structopt-derive = "0"
+error-chain = "0"

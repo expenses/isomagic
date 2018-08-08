@@ -133,7 +133,7 @@ impl<'a> ModelRenderer<'a> {
     fn new(renderer: &'a mut Renderer, model: usize, x_padding: u32, y_padding: u32) -> Self {
         Self {
             model: &mut renderer.vox.models[model],
-            palette: &renderer.vox.pallete,
+            palette: &renderer.vox.palette,
             x_padding, y_padding
         }
     }
